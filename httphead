@@ -1,0 +1,18 @@
+get new link...4
+
+
+GET / HTTP/1.1
+Host: 42.194.135.248:8888
+Connection: keep-alive  // 长连接 比较麻烦 我们采用短链接
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.//浏览器信息
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9//可接受数据类型
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+
+
+读取
+分析
+构建响应并返回

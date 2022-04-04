@@ -1,0 +1,4 @@
+用户名： http_test @ %
+密码 ：  erpeng
+grant all on httpsql.* to 'http_test'@'%';
+

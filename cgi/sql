@@ -1,0 +1,5 @@
+#!/bin/bash
+
+g++ -o mysql_con mysql_con.cc -std=c++11 -Imy_sql/include -Lmy_sql/lib -lmysqlclient
+#export LD_LIBRARY_PATH="/home/fxj/HTTP/code/cgi/my_sql/lib/
+
